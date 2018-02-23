@@ -25,7 +25,7 @@
                      </tasks>
                   </configuration>
                </execution>
-            
+
                <execution>
                   <id>id.compile</id>
                   <phase>compile</phase>
@@ -38,47 +38,6 @@
                      </tasks>
                   </configuration>
                </execution>
-            
-               <execution>
-                  <id>id.test</id>
-                  <phase>test</phase>
-                  <goals>
-                     <goal>run</goal>
-                  </goals>
-                  <configuration>
-                     <tasks>
-                        <echo>test phase</echo>
-                     </tasks>
-                  </configuration>
-               </execution>
-            
-               <execution>
-                  <id>id.package</id>
-                  <phase>package</phase>
-                  <goals>
-                     <goal>run</goal>
-                  </goals>
-                  <configuration>
-                     <tasks>
-                        <echo>package phase</echo>
-                     </tasks>
-                  </configuration>
-               </execution>
-            
-               <execution>
-                  <id>id.deploy</id>
-                  <phase>deploy</phase>
-                  <goals>
-                     <goal>run</goal>
-                  </goals>
-                  <configuration>
-                     <tasks>
-                        <echo>deploy phase</echo>
-                     </tasks>
-                  </configuration>
-               </execution>
-            </executions>
-         </plugin>
-      </plugins>
-   </build>
-</project>
+
+"Jenkinsfile" 84L, 2737C                                                                                                     1,1           Top
+
